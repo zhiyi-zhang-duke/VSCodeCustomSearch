@@ -37,6 +37,7 @@ async function handleUserInputAndSearch(context: vscode.ExtensionContext) {
     }
 }
 
+// TODO: Handle filePathPatterns
 async function searchFiles(
 		fileContentPatterns: string[],
 		filePathPatterns: string [],
