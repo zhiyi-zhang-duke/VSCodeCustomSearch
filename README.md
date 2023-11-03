@@ -1,6 +1,7 @@
 # custom-search README
 
 This is a VSCode extension to help you perform more specific code changes over large code repositories. VSCode offers this:
+
 ![image](https://github.com/zhiyi-zhang-duke/VSCodeCustomSearch/assets/68999131/e2c26f31-4f9a-4860-bec1-44bc4ee88d8d)
 
 A one regex or one string search that allows you to filter by files. This just isn't good enough sometimes. 
