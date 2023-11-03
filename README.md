@@ -1,22 +1,27 @@
 # custom-search README
 
-This is the README for your extension "custom-search". After writing up a brief description, we recommend including the following sections.
+This is a VSCode extension to help you perform more specific code changes over large code repositories. VSCode offers this:
+![image](https://github.com/zhiyi-zhang-duke/VSCodeCustomSearch/assets/68999131/e2c26f31-4f9a-4860-bec1-44bc4ee88d8d)
+
+A one regex or one string search that allows you to filter by files. This just isn't good enough sometimes. 
+Sometimes you want to find files that match multiple regexs, and multiple regex paths. This extension achieves that.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Go to the command palette and choose Custom Search
 
-For example if there is an image subfolder under your extension project workspace:
+This brings up a short questionaire where you can input your comma separated regexs.
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+The extension then searches your entire code base and searches for all files that match these criteria returning you a nice link enabled list of the results.
 
 ## Setup
 
 npm run package
+
 npm run watch
+
 Go to extension.ts, hit F5
+
 Go to new VSCode window, ctr (or cmd) + p, type > Custom Search, enter search parameters
 
 Also helpful:
